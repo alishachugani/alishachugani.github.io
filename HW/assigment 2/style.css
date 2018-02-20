@@ -1,0 +1,29 @@
+/*
+font-family: 'Playfair Display', serif;
+*/
+.greentext {color:green;}
+.largetext { font-size: 36px;}
+.smalltext {font-size: 10px;}
+.pink-bg {background: #F778A5;}
+.purpletext {color: #800080}
+
+
+#maintitle {
+  text-decoration:
+  underline;
+  font-family: 'Playfair Display', serif;
+  color: red;
+}
+
+#worktitle {
+  text-decoration: overline;
+  color: orange;
+}
+
+a{
+  text-decoration: none;
+  color: pink;
+}
+a:hover{
+  color: yellow;
+}
