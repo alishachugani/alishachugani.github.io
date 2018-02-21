@@ -10,9 +10,19 @@
 }
 
 .largetext { font-size: 36px}
+.pink-bg {background: #F778A5;}
+.pink-text {color: #F778A5;}
+.rgbexample {color: rgba (100,30,255,0,5);}
 main {
   width: 800px;
   border: 1px dotted black;
 margin-left: auto;
 margin-right: auto;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: yellow
 }
