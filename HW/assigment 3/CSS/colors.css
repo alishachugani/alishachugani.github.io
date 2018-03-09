@@ -1,0 +1,69 @@
+.black-bg {background: #000000;}
+.darkgray-bg {background: #545046;}
+.gray-bg {background: #A19A87;}
+.clear-bg {background: #FFF5D6;}
+.gold-bg {background: #6E5B22;}
+
+.gold-txt {color: #6E5B22;}
+.clear-txt {color: #FFF5D6;}
+
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.gallery li{
+  display: block;
+  border: 1px solid #CCCCCC;
+}
+
+header {text-align: center;}
+
+#pooimage {
+width: 20%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 20px;
+  text-align:center;
+}
+
+.centertxt{
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none; padding-left: 0;
+}
+
+ul { list-style-type: none; }
+
+nav a {text-decoration: none;}
+
+footer p {
+  padding: 10px}
+
+
+#maintitle {
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+}

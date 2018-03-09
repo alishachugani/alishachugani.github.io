@@ -1,0 +1,10 @@
+nav li {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.gallery li {
+  margin: 20px;
+}

@@ -1,0 +1,39 @@
+.dark-bg {background: #AE4300;}
+.medium-bg {background: #FF6708;}
+.light-bg {background: #FFA066}
+
+.dark-txt {color: #AE4300;}
+.medium-txt {color: #FF6708;}
+.light-txt {color: #FFA066}
+
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.gallery li{
+  display: block;
+  border: 1px solid #CCCCCC;
+}
+/* a comment */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none; padding-left: 0;
+}
+
+nav a {text-decoration: none;}
+
+img {max-width: 100%;}
+
+footer p {padding: 25px}

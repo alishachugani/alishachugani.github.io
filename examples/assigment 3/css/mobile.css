@@ -1,0 +1,17 @@
+nav li {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.hand-img{
+  display: block;
+}
+.puente-img {
+  display: none;
+}
+
+.gallery li {
+  margin: 20px;
+}

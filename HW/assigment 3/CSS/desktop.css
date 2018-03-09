@@ -1,0 +1,40 @@
+header h1{
+  height: 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+nav ul {
+  text-align: right;
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav li {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  display: inline;
+}
+
+.gallery{width: 960px}
+.gallery li {
+  width: 298px;
+  height: 298px;
+  margin: 10px;
+  float: left;
+}
+
+footer {
+  /*position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;*/
+}
+
+.push{
+  display: block;
+  height: 100px;
+}
