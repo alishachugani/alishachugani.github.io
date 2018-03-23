@@ -62,8 +62,11 @@ nav a {text-decoration: none;}
 footer p {
   padding: 10px}
 
+.clear {
+      clear:both;
+  }
 
 #maintitle {
   font-family: 'Tangerine', cursive;
-  font-size: 50px;
+  font-size: 80px;
 }
