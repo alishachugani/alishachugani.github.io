@@ -26,7 +26,6 @@ $('#yes').on('click', function(){
   $('#surveytitle').css("background-color","green");
   $('#survey').css({
     "border": "1px solid green",
-    "background": "#ccc"
   });
 });
 
@@ -34,7 +33,6 @@ $('#no').on('click', function(){
   $('#surveytitle').css("background-color","red");
   $('#survey').css({
     "border": "1px solid red",
-    "background": "#ccc"
   });
 });
 
