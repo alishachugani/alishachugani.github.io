@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> 30 Plugins </title>
+  <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+</head>
+  <body>
+    <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+    <div id="links">
+        <a href="http://placehold.it/640x480/ffcc00" title="Banana">
+            <img src="http://placehold.it/200x200/ffcc00" alt="Banana">
+        </a>
+        <a href="http://placehold.it/640x480/cccc00" title="Apple">
+            <img src="http://placehold.it/200x200/cccc00" alt="Apple">
+        </a>
+        <a href="http://placehold.it/640x480/ff9900" title="Orange">
+            <img src="http://placehold.it/200x200/ff9900"alt="Orange">
+        </a>
+    </div>
+    <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+    <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+      <script src="gallery/js/blueimp-gallery.min.js"></script>
+      <script> document.getElementById('links').onclick = function (event) {
+      event = event || window.event;
+      var target = event.target || event.srcElement,
+          link = target.src ? target.parentNode : target,
+          options = {index: link, event: event},
+          links = this.getElementsByTagName('a');
+      blueimp.Gallery(links, options);
+    };
+    </script>
+    <script>
+    blueimp.Gallery(
+        document.getElementById('links').getElementsByTagName('a'),
+        {
+            container: '#blueimp-gallery-carousel',
+            carousel: true
+        }
+  );
+  </script>
+  </body>
+</html>
